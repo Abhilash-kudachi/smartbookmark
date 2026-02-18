@@ -18,7 +18,7 @@ export const createSupabaseServer = async () => {
               cookieStore.set(name, value, options)
             )
           } catch {
-            // This can be ignored if the client is called from a Server Component
+            
           }
         },
       },
